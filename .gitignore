@@ -6,6 +6,36 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local DHIS2 runtime
+.local/
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.dump
+*.backup
+
+# Python environment
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Local results and logs
+results/
+logs/
+*.log
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+
 # Distribution / packaging
 .Python
 build/
